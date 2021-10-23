@@ -1,0 +1,8 @@
+[package]
+name = "rsnek"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+bevy = { git = "https://github.com/bevyengine/bevy", features = ["dynamic"] }
+rand = "0.8.4"
